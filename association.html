@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATION D'ASSOCIATION </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <img src="espoire.png" alt="" width="80px">
+<h1>ASSOCIATION ESPOIRE </h1>
+
+</header>
+<body>
+   <section >
+     <form action="" id="form1">
+    <input type="text" id="nom" placeholder="Nom">
+    <input type="text" id="prenom" placeholder="Prenom">
+    <input type="number" id="numero" placeholder="Numero">
+    <input type="text" id="adresse" placeholder="Adresse">
+    <div>
+    <button type="submit" >Envoyer</button>
+
+    </div>
+    
+    </form>
+   
+   </section>
+    <table>
+        <thead>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Numéro</th>
+            <th >Adresse</th>
+            <th colspan="2">Action</th>
+
+        </thead>
+        
+        <tbody id="tabledata">
+        </tbody>
+    </table>
+
+    <section>
+        
+     <form action="" id="update">
+    <input type="text" id="up_nom" placeholder="nom">
+    <input type="text" id="up_prenom" placeholder="prenom">
+    <input type="numero" id="numero" placeholder="numero">
+    <input type="text" id="up_adresse" placeholder="adresse">
+    <div>
+    <button onclick="update()">modifier</button>
+
+    </div>
+    
+    </form>
+   
+   </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
